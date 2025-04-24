@@ -1,6 +1,8 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
+import Script from 'next/script'
+import Head from 'next/head'
 
 
 const inter = Inter({ subsets: ['latin'] });
@@ -18,9 +20,12 @@ export default function RootLayout({
   
   return (
     <html lang="en">
-      <head>
-        <script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' />
-      </head>
+      <Head>
+
+        <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' />
+      </Head>
+      
+      
       <body className={inter.className}>{children}</body>
     </html>
   );
