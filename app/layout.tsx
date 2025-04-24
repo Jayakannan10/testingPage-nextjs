@@ -1,7 +1,7 @@
 import './globals.css';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import {useEffect} from 'react';
+
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -15,15 +15,12 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6805f1c5dfd88619c2d92289.js';
-    script.setAttribute('data-project-id', 'your-project-id');
-    script.defer = true;
-    document.body.appendChild(script);
-  }, []);
+  
   return (
     <html lang="en">
+      <head>
+        <script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6805f1c5dfd88619c2d92289.js' defer />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
