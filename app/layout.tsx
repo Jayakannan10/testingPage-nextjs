@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' async defer />
+        <script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
