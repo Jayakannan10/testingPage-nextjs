@@ -6,13 +6,7 @@ import { ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6805f1c5dfd88619c2d92289.js';
-    script.setAttribute('data-project-id', 'your-project-id');
-    script.defer = true;
-    document.body.appendChild(script);
-  }, []);
+  
   return (
     <div className="relative isolate px-6 pt-14 lg:px-8">
       <div className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
