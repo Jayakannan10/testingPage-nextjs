@@ -23,7 +23,7 @@ export default function RootLayout({
       <Head>
 
       </Head>
-        <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' />
+        <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' async/>
       
       
       <body className={inter.className}>{children}</body>
