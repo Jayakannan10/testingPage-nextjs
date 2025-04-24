@@ -22,8 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <Head>
 
-        <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' />
       </Head>
+        <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' />
       
       
       <body className={inter.className}>{children}</body>
