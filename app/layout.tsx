@@ -18,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' async/>
+        {/* <Script src='https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6809c21e53ab50c7b1d088c9.js' async/> */}
+        <Script
+        src={`https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6805f1c5dfd88619c2d92289.js?v=${Date.now()}`} defer async/>
         {children}
       </body>
     </html>
