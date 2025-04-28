@@ -13,7 +13,9 @@ export default function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <span className="text-2xl font-bold text-indigo-600">SaaS Pro</span>
+              <Link href='/' className='text-2xl text-bold text-indigo-600'>
+                Saas Pro
+              </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link
@@ -27,6 +29,8 @@ export default function Navbar() {
                 <Home className="w-4 h-4 mr-2" />
                 Home
               </Link>
+            </div>
+            <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link
                 href="/pricing"
                 className={`inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium ${
@@ -38,7 +42,7 @@ export default function Navbar() {
                 <CreditCard className="w-4 h-4 mr-2" />
                 Pricing
               </Link>
-            </div>
+              </div>
           </div>
         </div>
       </div>

@@ -52,10 +52,11 @@ const plans = [
 export default function PricingPlans() {
   return (
     <>
-      <Script 
+    
+      {/* <Script 
         src={`https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6805f1c5dfd88619c2d92289.js?v=${Date.now()}`}
         async defer
-      />
+      /> */}
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
