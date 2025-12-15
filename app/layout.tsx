@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
 
-      <script src={`https://priceflows-assets.blr1.digitaloceanspaces.com/template-script/tooltip-script-6805f1c5dfd88619c2d92289.js?v=${Date.now()}`} defer async></script>
+      <script src={`https://github.com/Jayakannan10/testingPage-nextjs.git`} defer async></script>
       </head>
      
       {/* <Script
