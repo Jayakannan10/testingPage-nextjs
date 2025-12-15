@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
 
-      <script src={`https://nkjtnhziifrnbrlivbeu.supabase.co/storage/v1/object/public/pricing_flows/snippets/exp_7pjuy2jsqm/ab-test_1765806272231_87p4gepxdqb.js`} defer async></script>
+      <script src={`https://nkjtnhziifrnbrlivbeu.supabase.co/storage/v1/object/public/pricing_flows/snippets/exp_7pjuy2jsqm/ab-test.js`} defer async></script>
       </head>
      
       {/* <Script
