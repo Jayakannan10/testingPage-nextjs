@@ -17,14 +17,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <head>
         <Script
           id="ab-test-script"
           src="https://nkjtnhziifrnbrlivbeu.supabase.co/storage/v1/object/public/pricing_flows/snippets/exp_7pjuy2jsqm/ab-test.js"
           strategy="afterInteractive"
         />
-        {children}
-      </body>
+      </head>
+      <body className={inter.className}>{children}</body>
     </html>
   );
 }
