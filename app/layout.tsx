@@ -20,7 +20,7 @@ export default function RootLayout({
       <head>
         <Script
           id="ab-test-script"
-          src=""
+          src="https://nkjtnhziifrnbrlivbeu.supabase.co/storage/v1/object/public/pricing_flows/snippets/exp_y3umf4k4nf/ab-test.js"
           strategy="afterInteractive"
         />
       </head>
